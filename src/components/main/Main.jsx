@@ -10,7 +10,7 @@ export const Main = () => {
   return (
     <div className='main'>
         <div className="nav">
-            <p>Gemini</p>
+            <p>Vepchat </p>
             <img src={assets.user_icon} alt="" />
         </div>
         <div className="main-container">
@@ -18,7 +18,7 @@ export const Main = () => {
              {!showResult
              ?<>
              <div className="greet">
-                <p><span>Hello, Dev Community</span></p>
+                <p><span>Hello, Vep Community</span></p>
                 <p>How can I help you today?</p>
             </div>
             <div className="cards">
@@ -73,7 +73,7 @@ export const Main = () => {
                         {input?<img onClick={()=>onSent()} src={assets.send_icon} alt="" />:null}
                     </div>
                 </div>
-                <p className='bottom-info'>Gemini may display inaccruate info, including about people, so double-check its responses</p>
+                <p className='bottom-info'>Vep Chat may display inaccruate info, including about people, so double-check its responses</p>
             </div>
         </div>
     </div>
