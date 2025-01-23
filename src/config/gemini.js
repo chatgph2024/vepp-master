@@ -7,7 +7,7 @@ import {
     HarmBlockThreshold,
   }  from "@google/generative-ai";
   
-  const MODEL_NAME = "gemini-1.0-pro";
+  const MODEL_NAME = "gemini-2.0-flash-exp";
   const API_KEY = "AIzaSyBaGnueourhAmI2QoOi_Ct2EVsDz-p-zm8";
   
   async function runChat(prompt) {
@@ -18,7 +18,7 @@ import {
       temperature: 0.9,
       topK: 1,
       topP: 1,
-      maxOutputTokens: 2048,
+      maxOutputTokens: 8192,
     };
   
     const safetySettings = [
